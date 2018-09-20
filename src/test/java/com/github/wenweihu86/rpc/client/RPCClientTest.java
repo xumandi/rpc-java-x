@@ -18,7 +18,8 @@ public class RPCClientTest {
         RPCClientOptions clientOption = new RPCClientOptions();
         clientOption.setWriteTimeoutMillis(200);
         clientOption.setReadTimeoutMillis(500);
-
+        
+        System.out.println("xxxx-----");
         String ipPorts = "127.0.0.1:8766";
         if (args.length == 1) {
             ipPorts = args[0];
